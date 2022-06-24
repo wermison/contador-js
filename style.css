@@ -1,0 +1,47 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.contador {
+    font-size: 50px;
+    color: black;
+}
+
+main {
+    background-color: #EEEEEE;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botoes {
+    margin-top: 30px;
+}
